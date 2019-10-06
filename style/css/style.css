@@ -40,15 +40,31 @@ code {
 }
 /* Two-column layout */
 .left-column {
-  width: 20%;
-  height: 92%;
+  width: 49%;
   float: left;
 }
 .right-column {
-  width: 75%;
+  width: 49%;
   float: right;
-  padding-top: 1em;
 }
 .image-scaled img {
   width: 100%;
+}
+.image-200px img {
+  width: 200px;
+}
+
+.comparative-table-with-arrow table {
+  margin: 30px;
+}
+.comparative-table-with-arrow th {
+  display: none;
+}
+.comparative-table-with-arrow td {
+  white-space: nowrap;
+  width: 0%;
+}
+.comparative-table-with-arrow td:nth-child(2) {
+  width: 200px;
+  text-align: center;
 }
